@@ -36,17 +36,14 @@ class BST {
                 if(!currN.left){
                     currN.left = newN;
                     break;
-                }
-                else{
+                } else {
                     currN = currN.left;
                 }
-            }
-            else{
+            } else {
                 if(!currN.right){
                     currN.right = newN;
                     break;
-                }
-                else{
+                } else {
                     currN = currN.right;
                 }
             }
